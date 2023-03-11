@@ -17,7 +17,7 @@ class AlbumTestCase(unittest.TestCase):
 
     def test_agregar_album(self):
         # Nombre aleatorio
-        titulo_album1 = self.data_factory.name()
+        titulo_album1 = self.data_factory.name() 
         # Año aleatorio
         anio_album1 = self.data_factory.year()
         # Frase aleatoria
